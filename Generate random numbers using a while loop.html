@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+    <link href="ab.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <h1>The counting to 10</h1>
+    <p id="a"></p>
+    <H1>The table of 2</H1>
+    <p id="b"></p>
+    <script>
+        var text=""
+        var i=0
+        while(i<11){
+            text +="<br>The number is"+i
+            i++
+        }
+        document.getElementById("a").innerHTML=text
+
+        var text=""
+        var i=0
+        while(i<11){
+            text +="<br>The number is"+i*2
+            i++
+        }
+        document.getElementById("b").innerHTML=text
+    </script>
+</body>
+</html>
